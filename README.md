@@ -51,5 +51,6 @@ mvn package
 ```
 All the bytecode is packaged to jar or war files (jar in this case) 
 ![jar](https://github.com/guycalledavinash/maven/assets/90386560/1943352e-e6a1-4bd2-9a08-9a6f1c07fb84)
+
 This is the outcome:
 ![jaar](https://github.com/guycalledavinash/maven/assets/90386560/d59da5e0-c20f-47a8-ab16-d7ff8303ba06)
