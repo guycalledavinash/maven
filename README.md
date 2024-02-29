@@ -5,6 +5,8 @@ A project has many .java files which can't be executed directly as computers onl
 
 So, the java compiler (javac) compiles source code into bytecode creating .class files, which are organised into packages
 
+![process](https://github.com/guycalledavinash/maven/assets/90386560/057cc7ec-221e-4cad-acbf-acfa3219d9c2)
+
 To deploy java project, we should package all .class files (bytecode) to JAR file or WAR file
 
 			JAR : Java Archive
@@ -35,9 +37,19 @@ Create Maven project:
 ```
 mvn archetype:generate -DgroupId=in.JohnySins -DartifactId=01-Maven-App -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
-This creates `src` folder and pom.xml file
+This creates `src` folder and `pom.xml` file
+
 To compile the project, do this from project folder:
 ```
 mvn compile
 ```
-This creates a target folder where .class files are created
+This creates a target folder where multiple .class files are created. 
+
+In production environment there're many .class files, which are to be packaged
+```
+mvn package
+```
+All the bytecode is packaged to jar or war files (jar in this case) 
+![jar](https://github.com/guycalledavinash/maven/assets/90386560/1943352e-e6a1-4bd2-9a08-9a6f1c07fb84)
+This is the outcome:
+![jaar](https://github.com/guycalledavinash/maven/assets/90386560/d59da5e0-c20f-47a8-ab16-d7ff8303ba06)
