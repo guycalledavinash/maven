@@ -3,11 +3,9 @@ It is not a secret that java files have a .java extension
 
 A project has many .java files which can't be executed directly as computers only understand binary language
 
-So, the java compiler (javac) compiles source code into bytecode creating .class files
+So, the java compiler (javac) compiles source code into bytecode creating .class files, which are organised into packages
 
-Those .class files are organised into packages
-
-To deploy java project, we should package all .class files as JAR file or WAR file
+To deploy java project, we should package all .class files (bytecode) to JAR file or WAR file
 
 			JAR : Java Archive
 			WAR : Web Archive
