@@ -22,10 +22,22 @@ Maven can create initial project folder structure
 
 Typically a java project is not built using java alone, to make things easy, there are other frameworks and libraries involved like springboot, hibernate, kafka, redis, etc
 
-They are called project dependencieswhich are to be downloaded but thanks to Maven, it does it for us.
+They are called project dependencies which are to be downloaded but thanks to Maven, it does it for us.
 
 Required dependencies are stored in "pom.xml" file where maven downloads them (pom: project object model)
 
 The pom.xml file is created automatically, acts as an input file when we create a maven project 
 
-Maven can compile and package the project
+Maven compiles and packages the project code 
+
+![maven](https://github.com/guycalledavinash/maven/assets/90386560/f265e767-3100-4619-ad7b-f3d9f35baed6)
+Create Maven project:
+```
+mvn archetype:generate -DgroupId=in.JohnySins -DartifactId=01-Maven-App -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+This creates `src` folder and pom.xml file
+To compile the project, do this from project folder:
+```
+mvn compile
+```
+This creates a target folder where .class files are created
