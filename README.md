@@ -33,9 +33,13 @@ The pom.xml file is created automatically, acts as an input file when we create 
 Maven compiles and packages the project code 
 
 ![maven](https://github.com/guycalledavinash/maven/assets/90386560/f265e767-3100-4619-ad7b-f3d9f35baed6)
-Create Maven project:
+To create a standalone appliaction:
 ```
 mvn archetype:generate -DgroupId=in.JohnySins -DartifactId=01-Maven-App -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+To create a web application:
+```
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=in.Donaldtrump -DartifactId=01-maven-web-app -DinteractiveMode=false
 ```
 This creates `src` folder and `pom.xml` file
 
