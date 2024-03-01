@@ -61,11 +61,15 @@ All the bytecode is packaged to jar or war files (jar in this case)
 This is the outcome:
 ![jaar](https://github.com/guycalledavinash/maven/assets/90386560/d59da5e0-c20f-47a8-ab16-d7ff8303ba06)
 ## Maven goals
+
 clean: deletes target folder
+
 compile: compiles source code
+
 test: executes Junit tests (ubit test code)
+
 package: packages bitecode
+
 install: installs project in repo
 
 `mvn clean package` executes the first four commands above
-
