@@ -66,15 +66,19 @@ clean: deletes target folder
 
 compile: compiles source code
 
-test: executes Junit tests (ubit test code)
+test: executes Junit tests (unit test code)
 
 package: packages bitecode to jar or war
 
 install: installs project in repo
 
+deploy: deploys the 
+
 package = compile + test + package
 
 install = compile + test + package + install
+
+deploy = compile + test + package + install + deploy
 
 ## Dependencies
 Maven will download dependencies using a repository
