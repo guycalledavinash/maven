@@ -41,7 +41,7 @@ To create a web application:
 ```
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=in.Donaldtrump -DartifactId=01-maven-web-app -DinteractiveMode=false
 ```
-This creates `src` folder and `pom.xml` file
+This creates a project folder structure which includes `src` folder and `pom.xml` file 
 
 To compile the project, do this from project folder:
 ```
