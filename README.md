@@ -41,7 +41,9 @@ To create a web application:
 ```
 mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp -DgroupId=in.Donaldtrump -DartifactId=01-maven-web-app -DinteractiveMode=false
 ```
-This creates a project folder structure which includes `src` folder and `pom.xml` file 
+This creates a project folder structure which includes `src` folder and `pom.xml` file like this:
+
+![str](https://github.com/guycalledavinash/maven/assets/90386560/031d931f-846f-4a66-a9dc-086c3c85f985)
 
 Now, to execute commands, make sure to do it where there's pom.xml file, so change `pwd` 
 
