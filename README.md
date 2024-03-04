@@ -99,4 +99,6 @@ Local repository is created in the system (Location : C://users/<uname>/.m2)
 
 When the maven goals are executed, the system will search for dependencies, for which it will search in local repo first, if not central. 
 
-In production, remote repo is used
+In production, remote repositories are used to store artifacts. 
+
+To know more about them, checkout this out: [Nexus Repository](https://github.com/guycalledavinash/nexus-repository) 
