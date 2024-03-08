@@ -47,7 +47,7 @@ Once the installation is done, it is mandatory to set the environment variables 
 3. Change variable name and value
    ![3](https://github.com/guycalledavinash/maven/assets/90386560/a34b520b-cdb7-4212-8464-781a3d53aadf)
 
-4. Now its time for to set the path of bin directory. Select path and click edit:
+4. Now its time to set the path of bin directory. Select path and click edit:
    ![4](https://github.com/guycalledavinash/maven/assets/90386560/8e13c7e3-b345-41f1-ad8f-cc33d92b2d5d)
 
 5. Click new, add the path of bin directory of jdk
