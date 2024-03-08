@@ -33,6 +33,33 @@ The pom.xml file is created automatically, acts as an input file when we create 
 Maven compiles and packages the project code 
 
 ![maven](https://github.com/guycalledavinash/maven/assets/90386560/f265e767-3100-4619-ad7b-f3d9f35baed6)
+# Pre-requisite
+Since maven is java based, jre & jdk should be installed locally, along with maven of course
+
+Once the installation is done, it is mandatory to set the environment variables for jdk and maven
+
+1. Go to Environment Variables from search bar and click on 'Environvent Variables' option:
+   ![1](https://github.com/guycalledavinash/maven/assets/90386560/3e5600dd-ed12-4cce-b3cf-f84e2ee3daf9)
+
+2. Select JAVA_HOME from the system variables, edit that:
+   ![2](https://github.com/guycalledavinash/maven/assets/90386560/8ea8e745-7a27-4e42-80f9-b4b0584761ce)
+
+3. Change variable name and value
+   ![3](https://github.com/guycalledavinash/maven/assets/90386560/a34b520b-cdb7-4212-8464-781a3d53aadf)
+
+4. Now its time for to set the path of bin directory. Select path and click edit:
+   ![4](https://github.com/guycalledavinash/maven/assets/90386560/8e13c7e3-b345-41f1-ad8f-cc33d92b2d5d)
+
+5. Click new, add the path of bin directory of jdk
+   ![5](https://github.com/guycalledavinash/maven/assets/90386560/f852f5b7-bc1f-4fba-a9d5-d541168acf3f)
+
+6. Open cmd, check the java version to confirm `java -version`
+   
+7. Download maven from official source, extract and paste in the C drive
+
+8. Set environment variables and path for maven like we did to java
+
+# Maven project:
 To create a standalone appliaction:
 ```
 mvn archetype:generate -DgroupId=in.JohnySins -DartifactId=01-Maven-App -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
