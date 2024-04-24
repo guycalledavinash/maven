@@ -130,4 +130,4 @@ When the maven goals are executed, the system will search for dependencies, for 
 
 In production, remote repositories are used to store artifacts. 
 
-To know more about them, checkout this out: [Nexus Repository](https://github.com/guycalledavinash/nexus-repository) 
+To know more about them, checkout [Nexus Repository](https://github.com/guycalledavinash/nexus-repository) 
